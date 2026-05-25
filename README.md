@@ -447,7 +447,7 @@ See [full setup guide](#setup) for details and [alternative model combinations](
 
 ## 4. ✨ Features
 
-- 📊 **76 composable skills** — mix and match, or chain into full pipelines (`/idea-discovery`, `/auto-review-loop`, `/paper-writing`, `/research-pipeline`). See [full catalog →](docs/SKILLS_CATALOG.md)
+- 📊 **77 composable skills** — mix and match, or chain into full pipelines (`/idea-discovery`, `/auto-review-loop`, `/paper-writing`, `/research-pipeline`). See [full catalog →](docs/SKILLS_CATALOG.md)
 - 🔍 **Literature & novelty** — multi-source paper search (**[Zotero](docs/integrations/ZOTERO.md)** + **[Obsidian](docs/integrations/OBSIDIAN.md)** + **local PDFs** + arXiv/Scholar) + cross-model novelty verification
 - 💡 **Idea discovery** — literature survey → brainstorm 8-12 ideas → novelty check → GPU pilot experiments → ranked report
 - 🔄 **Auto review loop** — 4-round autonomous review, 5/10 → 7.5/10 overnight with 20+ GPU experiments
@@ -1098,6 +1098,8 @@ Got reviews back? `/rebuttal` parses them, builds a strategy, and drafts a venue
 
 **Standalone slide / poster tools:** if you only want the artifact and not the full orchestration, `/paper-slides "paper/"` and `/paper-poster "paper/"` work directly without `/paper-talk`. See the [2026-05-06 News entry](#whats-new) for the full feature breakdown.
 
+<a id="-research-wiki--persistent-research-memory"></a>
+
 ### 📚 Research Wiki — Persistent Research Memory
 
 > **"Stop re-deriving. Start compounding."** — inspired by [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
@@ -1419,7 +1421,7 @@ export OPENAI_API_KEY="your-key"
 
 ## 9. 🧰 Skills Catalog
 
-ARIS ships **76+ skills** across literature, ideation, experiments, audit,
+ARIS ships **77+ skills** across literature, ideation, experiments, audit,
 writing, talks, patents, and meta-utilities. The full catalog (with role,
 category, and requirements per skill) lives in
 **[`docs/SKILLS_CATALOG.md`](docs/SKILLS_CATALOG.md)** to keep this README
@@ -1441,7 +1443,7 @@ scannable.
 | Patent drafting (CN / US / EP) | [`/patent-pipeline`](skills/patent-pipeline/SKILL.md) |
 | ARIS optimizes itself | [`/meta-optimize`](skills/meta-optimize/SKILL.md) |
 
-→ **[Browse all 76 skills by category in the full catalog →](docs/SKILLS_CATALOG.md)**
+→ **[Browse all 77 skills by category in the full catalog →](docs/SKILLS_CATALOG.md)**
 
 ---
 
